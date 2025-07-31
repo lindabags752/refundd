@@ -292,7 +292,7 @@ function showFirstConfirmation() {
 }
 
 function showSecondConfirmation() {
-  document.getElementById("confirmationText2").textContent = `Your Debited Amount $${secondAmount} has been refunded successfully to Your Bank Account.`;
+  document.getElementById("confirmationText2").textContent = `Your Debited Amount $40,000 has been refunded successfully to Your Bank Account.`;
   showStep("finalConfirmation");
 }
 </script>
